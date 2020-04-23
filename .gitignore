@@ -1,6 +1,6 @@
 HELP.md
 target/
-!.mvn/wrapper/**
+!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
 
@@ -15,9 +15,11 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
+.mvn
 *.iws
 *.iml
 *.ipr
+
 
 ### NetBeans ###
 /nbproject/private/
@@ -29,5 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-src/main/resources/static/
-src/main/resources/templates/
